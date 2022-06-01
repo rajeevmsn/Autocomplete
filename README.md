@@ -1,37 +1,6 @@
-## Welcome to GitHub Pages
+# Autocomplete - Using wearables and artificial intelligence to help subjets with neurodevelopmental disorders 
 
-You can use the [editor on GitHub](https://github.com/rajeevmsn/Autocomplete/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rajeevmsn/Autocomplete/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Abstract
+Neurodevelopmental disorders(NDD) such as autism spectrum disorder (ASD), intellectual disability (ID). affect up to 15% of the population. These NDD produce disabilities which affect a person their whole life. In many cases, persons with NDD are unable to communicate about their subjective state, their feelings or their wishes, either because they are non-verbal, or because their communication is non-functional. Impaired communication greatly hinders the ability of families, caretakers, educators and clinicians to help the patients.
+Wearable technology has gained relevance in the fields of health and wellness because of their potential to continuously monitor physiological parameters and are increasingly used to collect information which could facilitate and improve therapy. Other technological advances such as autocomplete methods are the technology phones use to finish your sentences. In its more sophisticated implementations, algorithms such as OpenAI’s GPT-3 or DALL-E are able to produce, starting from a short prompt, full newspaper articles or whole images which are difficult to distinguish from those produced by a creative human. I propose to explore the utility of these artificial intelligence methods with the help of physiological data such as Heart Rate Variability (HRV), Body temperature, accelerometer, respiration rate from wearables to assist people with neurodevelopmental disorders (NDD) communicate about themselves, in a sense, autocompleting the sentences that they are unable to produce. 
+My working hypothesis is that, although the communication skills of a person with NDD may be abnormal, the physiological information associated with different states and feelings is comparable with that of normal individuals. I propose to use dense, multimodal data captured from both neurotypical and neuroatypical subjects by wearable devices to prompt an artificial intelligence into completing the reports about feelings and wishes that a person with NDD could have produced were they able to communicate.
