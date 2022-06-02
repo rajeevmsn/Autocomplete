@@ -2,43 +2,42 @@
   font-family: sans-serif;
 }
 
-
-#content,
-#header,
-#message {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  word-wrap: break-word;
-}
-
-#header{
-  top: 5vh;
-  float: right;
+#title {
+  position:relative;
+  left:0;
   color: rgb(0, 0, 0);
   font-size: xx-large;
 }
 
+#content {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 #message {
-  top: 60vh;
+  position: relative;
+  left:calc(15px * 5vh)
   width: 75%;
   color: rgb(245, 237, 237);
+  word-wrap: break-word;
 }
 
 #content {
+  position: relative;
+  top: 300px;
   width: 80%;
   height: 70%;
-  padding-bottom: 30%;
-  background-color: rgb(123, 44, 44);
-  color: rgb(154, 32, 32);
-  opacity: 0.5;
+  
+  background-color: #8c4f6f;
+  color: #faedf4;
+  opacity: .75;
 }
 
 html, body{
   margin: 0px;
   padding: 0px;
-  background: #fdc8f6;
+  background: #faedf4;
 }
 .background{
   position: absolute;

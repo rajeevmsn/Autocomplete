@@ -1,7 +1,7 @@
 window.onload = function(){
   Particles.init({
     selector: '.background',
-    maxParticles: 100,
+    maxParticles: 150,
     connectParticles: 'true',
     speed:.25,
     minDistance: 140,
