@@ -5,12 +5,13 @@
 #title {
   position:relative;
   left:0;
-  color: rgb(0, 0, 0);
-  font-size: xx-large;
+  color: #8c4f6f;
+  font-size: 5vh;
 }
 
 #content {
   position: relative;
+  top: 250px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -21,11 +22,11 @@
   width: 75%;
   color: rgb(245, 237, 237);
   word-wrap: break-word;
+  font-size: 1.5vw;
 }
 
 #content {
   position: relative;
-  top: 300px;
   width: 80%;
   height: 70%;
   
