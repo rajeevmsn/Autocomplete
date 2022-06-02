@@ -4,8 +4,29 @@ window.onload = function(){
     maxParticles: 150,
     connectParticles: 'true',
     speed:.25,
-    minDistance: 140,
-    sizeVariations: 4,
-    color: '#000000'
+    minDistance: 120,
+    sizeVariations: 5,
+    color: '#000000',
+    responsive: [
+      {
+        breakpoint: 768,
+        options: {
+          maxParticles: 200,
+          color: '#000000',
+          connectParticles: false
+        }
+      }, {
+        breakpoint: 425,
+        options: {
+          maxParticles: 100,
+          connectParticles: true
+        }}, {
+        breakpoint: 320,
+        options: {
+          maxParticles: 0
+          // disables particles.js
+        }
+      }
+    ]
   });
 }
