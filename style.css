@@ -11,7 +11,7 @@
 
 #content {
   position: relative;
-  top: 250px;
+  top: 30vh;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -21,8 +21,9 @@
   left:calc(15px * 5vh)
   width: 75%;
   color: rgb(245, 237, 237);
+  background-color: #8c4f6f;
   word-wrap: break-word;
-  font-size: 1.5vw;
+  font-size: 1.75vw;
 }
 
 #content {
@@ -30,7 +31,7 @@
   width: 80%;
   height: 70%;
   
-  background-color: #8c4f6f;
+  
   color: #faedf4;
   opacity: .75;
 }
