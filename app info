@@ -1,0 +1,6 @@
+require("Storage").write("autocompletev1.info",{
+  "id":"autocompletev1",
+  "name":"autocompletev1",
+  "src":"autocompletev1.app.js",
+  "icon":"autocomplete.img.png"
+});
