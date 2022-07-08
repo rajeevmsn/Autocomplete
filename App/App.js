@@ -1,6 +1,6 @@
 Bangle.loadWidgets();
 Bangle.drawWidgets();
-
+event = "TESTconnectAllData";
 var allData = require("Storage").open(event+".csv", "a");
 
 //Menu Items
@@ -26,7 +26,7 @@ var menu = E.showMenu(menuItems); //Displaying Menu
 Bangle.setCompassPower(1);
 var c = Bangle.getCompass();
 var a = Bangle.getAccel();
-event = "TESTconnectAllData";
+
 
 
 function writeData(a){
