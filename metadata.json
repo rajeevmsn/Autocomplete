@@ -1,0 +1,13 @@
+require("Storage").write("autocomplete.info",{
+  "id":"autocomplete",
+  "name":"autocomplete",
+  "src":"autocomplete.app.js",
+  "icon":"autocomplete.png",
+  "tags":"health, bluetooth, autocomplete, data",
+  "supports":"BANGLEJS2",
+  "storage":[
+    {"name":"autocomplete.app.js"},
+    {"name":"autocomplete.img","url":"autocomplete-icon.js","evaluate":"true"},
+    {"name":"autocomplete.settings.js","url":"settings.js"}
+  ]
+});
