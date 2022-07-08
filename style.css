@@ -6,7 +6,7 @@
   position:relative;
   left:0;
   color: #8c4f6f;
-  font-size: 5vh;
+  font-size: 4.5vh;
 }
 
 #content {
@@ -30,10 +30,14 @@
   position: relative;
   width: 80%;
   height: 70%;
-  
-  
   color: #faedf4;
   opacity: .75;
+}
+
+#image {
+  position: relative;
+  max-width:25%;
+  height:auto;
 }
 
 html, body{
